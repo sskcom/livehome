@@ -1,0 +1,550 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #112a36;
+}
+
+#timeboad {
+    height: 5%;
+    width: 100%;
+    background-color: #032d42;
+    font-size: 400%;
+    position: absolute;
+    top: -10%;
+    left: 0%
+}
+
+.time {
+    font-size: 1vw;
+    font-family: 'Share Tech Mono', monospace;
+    color: #daf6ff;
+    text-shadow: 0 0 20px #011116;
+}
+
+#time_1_0 {
+    position: absolute;
+    top: -1%;
+    left: 0%;
+}
+
+.line {
+    background-color: #daf6ff;
+    box-shadow: 0 0 20px #0aafe6;
+    z-index: 2;
+    font-size: 1vw;
+    height: 60%;
+    width: 0.2%;
+    position: absolute;
+    top: 2.4%;
+    z-index: 3;
+}
+
+#line0 {
+    position: absolute;
+    left: 0%;
+}
+
+#line1 {
+    position: absolute;
+    left: 4320px;
+}
+
+#line2 {
+    position: absolute;
+    left: 8640px;
+}
+
+#line3 {
+    position: absolute;
+    left: 12960px;
+}
+
+#line4 {
+    position: absolute;
+    left: 17280px;
+}
+
+#line5 {
+    position: absolute;
+    left: 21598px;
+}
+
+#time_1_1 {
+    position: absolute;
+    top: -1%;
+    left: 4310px;
+}
+
+#time_1_2 {
+    position: absolute;
+    top: -1%;
+    left: 8630px;
+}
+
+#time_1_3 {
+    position: absolute;
+    top: -1%;
+    left: 12950px;
+}
+
+#time_1_4 {
+    position: absolute;
+    top: -1%;
+    left: 17270px;
+}
+
+#time_1_5 {
+    position: absolute;
+    top: -1%;
+    left: 21588px;
+}
+
+.mode {
+    font-size: 465%;
+    font-family: 'Share Tech Mono', monospace;
+    color: #daf6ff;
+   
+    text-shadow: 0 0 20px #011116;
+    position: absolute;
+    left: 1%;
+    z-index: 1;
+    /* opacity: 0.1; */
+    opacity: 0.5;
+}
+
+.edit {
+    height: 15%;
+    width: 21600px;
+    background-color: #03090c;
+    font-size: 400%;
+    border: solid;
+    border-color: #daf6ff;
+    box-shadow: #0aafe6;
+    position: absolute;
+    left: 0%;
+    z-index: 0;
+}
+
+#light1 {
+    position: absolute;
+    top: -5%;
+}
+
+#edit_1 {
+    position: absolute;
+    top: -5%;
+    z-index: 1;
+}
+
+#edit_2 {
+    position: absolute;
+    top: 10%;
+    z-index: 0;
+}
+
+#light2 {
+    position: absolute;
+    top: 10%;
+    z-index: 0;
+}
+
+#edit_3 {
+    position: absolute;
+    top: 25%;
+    z-index: 0;
+}
+
+#light3 {
+    position: absolute;
+    top: 25%;
+}
+
+#edit_4 {
+    position: absolute;
+    top: 40%;
+    z-index: 0;
+}
+
+#penlight {
+    position: absolute;
+    top: 40%;
+    z-index: 0;
+}
+
+.button {
+    background: #112a36;
+    box-shadow: -5px 5px 0px #071116, 5px -5px 0px #1b4356;
+    color: #999999;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    padding: 0.7em 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#i {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    font-size: 130%;
+    height: 10%;
+    line-height: 10%;
+    width: 10%;
+}
+
+.text {
+    color: #999999;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 200%;
+    font-weight: 20%;
+    text-shadow: 0 1px 1px #272727, 0 2px 0 #242423, 0 3px 0 #2b2b2b, 0 4px 0px #141414, 0 5px 0px #111111, 0 6px 3px #000000;
+    position: absolute;
+    top: 70%;
+    left: 43%;
+}
+
+.i-i {
+    font-size: 30%;
+    border-radius: 0.1em;
+    /* width: 0.6%;  */
+    width: 72px;
+    height: 100%;
+    line-height: 180%;
+    font-weight: 0.01%;
+    z-index: 4;
+    background-color: #929090;
+    color: #999999;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    float: left;
+    border-width: 1px;
+    border: solid;
+    border-color: #000000;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    min-height: 0.01%;
+    /* min-width: 39px; */
+    overflow: hidden;
+    
+    line-height: 480%;
+}
+
+.i-i::-webkit-scrollbar {
+    display: none;
+}
+
+#btn {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    height: 10%;
+    line-height: 45%;
+    width: 20%;
+    font-size: 199%;
+    border-radius: 0.5em;
+}
+
+#btn2 {
+    position: absolute;
+    top: 83%;
+    left: 12.5%;
+    height: 10%;
+    line-height: 45%;
+    width: 15%;
+    font-size: 199%;
+    border-radius: 0.5em;
+}
+
+#btn3 {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    height: 10%;
+    line-height: 45%;
+    width: 15%;
+    font-size: 199%;
+    border-radius: 0.5em;
+}
+
+#btn4 {
+    position: absolute;
+    top: 83%;
+    left: 69.3%;
+    height: 10%;
+    line-height: 45%;
+    width: 17%;
+    font-size: 199%;
+    border-radius: 0.5em;
+}
+
+#edit_space {
+    height: 70%;
+    width: 70%;
+    font-size: 100%;
+    background-color: #112a36;
+    z-index: 5;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    border: solid;
+    border-color: #929090;
+    border-width: 50%;
+    border-radius: 1em;
+    visibility: hidden;
+}
+
+#d_1 {
+    z-index: 0;
+}
+
+#colorpicker {
+    background-color: #112a36;
+    box-shadow: -5px 5px 0px #071116, 5px -5px 0px #1b4356;
+    padding: 0em 0.3em;
+    height: 70px;
+    width: 200px;
+    border: 0px none;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+#light_color {
+    position: absolute;
+    top: 0%;
+    left: 62%;
+    font-size: 400%;
+}
+
+#time {
+    position: absolute;
+    top: 34%;
+    left: 41%;
+}
+
+#interval {
+    position: absolute;
+    top: 59%;
+    left: 38.5%;
+}
+
+#time_input {
+    width: 10%;
+    position: absolute;
+    top: 50%;
+    left: 40%
+}
+
+#time_input2 {
+    width: 10%;
+    position: absolute;
+    top: 75%;
+    left: 40%
+}
+
+#play {
+    position: absolute;
+    top: 83%;
+    left: 10%;
+    height: 10%;
+    line-height: 45%;
+    width: 15%;
+    font-size: 136%;
+    border-radius: 0.5em;
+}
+
+#delete {
+    position: absolute;
+    top: 83%;
+    left: 60%;
+    height: 10%;
+    line-height: 45%;
+    width: 17%;
+    font-size: 136%;
+    border-radius: 0.5em;
+}
+
+#confirm {
+    position: absolute;
+    top: 83%;
+    left: 80%;
+    height: 10%;
+    line-height: 45%;
+    width: 18%;
+    font-size: 132%;
+    border-radius: 0.5em;
+}
+
+#radio_buttons {
+    position: relative;
+    top: 33%;
+    left: -35%;
+    width: 20%;
+    margin: 0 auto;
+}
+
+input[type="radio"] {
+    position: absolute;
+    right: 1000%;
+}
+
+label {
+    float: left;
+    width: 15%;
+    padding-bottom: 15%;
+    margin: 0 2.5%;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 20%;
+    box-shadow: -5px 5px 0px #071116, 5px -5px 0px #1b4356;
+    color: #999999;
+    cursor: pointer;
+}
+
+#slider {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 10%;
+    padding-bottom: 10%;
+    margin: 2.5% 0 0 5%;
+    background: #999999;
+    transition: transform 1s;
+    border-radius: 50%;
+    animation: .3s forwards ease-in-out;
+    transition: 0.2s left .05s ease-in-out;
+    position: absolute;
+}
+
+#label_1 {
+    position: absolute;
+    left: 0%;
+}
+
+#label_2 {
+    position: absolute;
+    left: 20%;
+}
+
+#label_3 {
+    position: absolute;
+    left: 40%;
+}
+
+#label_4 {
+    position: absolute;
+    left: 60%;
+}
+
+#label_5 {
+    position: absolute;
+    left: 80%;
+}
+
+#label6 {
+    position: absolute;
+    left: 100%;
+}
+
+#input1:checked~#slider {
+    animation-name: input1;
+    left: 0;
+}
+
+#input2:checked~#slider {
+    animation-name: input2;
+    left: 20%;
+}
+
+#input3:checked~#slider {
+    animation-name: input3;
+    left: 40%;
+}
+
+#input4:checked~#slider {
+    animation-name: input4;
+    left: 60%;
+}
+
+#input5:checked~#slider {
+    animation-name: input5;
+    left: 80%;
+}
+
+
+
+@keyframes input1 {
+    30%,
+    70% {
+        transform: scale(0.5);
+    }
+}
+
+@keyframes input2 {
+    30%,
+    70% {
+        transform: scale(0.5);
+    }
+}
+
+@keyframes input3 {
+    30%,
+    70% {
+        transform: scale(0.5);
+    }
+}
+
+@keyframes input4 {
+    30%,
+    70% {
+        transform: scale(0.5);
+    }
+}
+
+@keyframes input5 {
+    30%,
+    70% {
+        transform: scale(0.5);
+    }
+}
+
+
+
+#mode {
+    position: absolute;
+    top: 15%;
+    left: 9%
+}
+
+#n_1 {
+    position: absolute;
+    top: 50%;
+    left: 4%
+}
+
+#n_2 {
+    position: absolute;
+    top: 50%;
+    left: 24%
+}
+
+#n_3 {
+    position: absolute;
+    top: 50%;
+    left: 44%
+}
+
+#n_4 {
+    position: absolute;
+    top: 50%;
+    left: 64%
+}
+
+#n_5 {
+    position: absolute;
+    top: 50%;
+    left: 84%
+}

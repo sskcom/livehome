@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #112a36;
+}
+
+.form-group {
+    position: absolute;
+    top: 5vh;
+    left: 30vh;
+}
+
+.item {
+    border-radius: 45px;
+    background: #112a36;
+    box-shadow: -5px 5px 0px #071116, 5px -5px 0px #1b4356;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 900px;
+    font-size: 2em;
+    width: 60vh;
+    padding: 0.7em 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    color: #999999;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.sortable-chosen input {
+    color: #666;
+    background-color: #666666;
+    transform: translate(-5%, 0.3em);
+}
+
+.d {
+    padding: 0.7% 18% 0.7% 1%;
+    width: 104%;
+    height: 1%;
+    position: relative;
+}
+
+.button {
+    border-radius: 45px;
+    background: #112a36;
+    box-shadow: -5px 5px 0px #071116, 5px -5px 0px #1b4356;
+    color: #999999;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 900px;
+    padding: 0.7em 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.button:hover {
+    background-color: #666666;
+    transform: translate(-5%, 0.15em);
+    box-shadow: 0 0.15em 0 #222222;
+}
+
+.button:active {
+    box-shadow: 0 0 0 #7A5A7A;
+    transform: translate(-5%, 0.25em);
+}
+
+.button2 {
+    border-radius: 45px;
+    background: #112a36;
+    box-shadow: -5px 5px 0px #071116, 5px -5px 0px #1b4356;
+    color: #999999;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 900px;
+    padding: 0.7em 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-size: 1.5vh;
+    position: absolute;
+    top: 10%;
+    left: 85%
+}
+
+.button2:hover {
+    background-color: #666666;
+    transform: translate(-5%, 0.15em);
+    box-shadow: 0 0.15em 0 #222222;
+}
+
+.button2:active {
+    box-shadow: 0 0 0 #7A5A7A;
+    transform: translate(-5%, 0.25em);
+}
+
+.button3 {
+    border-radius: 45px;
+    background: #112a36;
+    box-shadow: -5px 5px 0px #071116, 5px -5px 0px #1b4356;
+    color: #999999;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 900px;
+    padding: 0.7em 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-size: 1.5vh;
+    position: absolute;
+    top: 50%;
+    left: 85%
+}
+
+.button3:hover {
+    background-color: #666666;
+    transform: translate(-5%, 0.15em);
+    box-shadow: 0 0.15em 0 #222222;
+}
+
+.button3:active {
+    box-shadow: 0 0 0 #7A5A7A;
+    transform: translate(-5%, 0.25em);
+}
+
+#btn {
+    font-size: 2em;
+    position: absolute;
+    top: 10vh;
+    left: 145vh;
+}
+
+#btn2 {
+    font-size: 2em;
+    position: absolute;
+    top: 30vh;
+    left: 145vh;
+}
